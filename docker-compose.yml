@@ -9,4 +9,8 @@ services:
         volumes:
             - ./app:/app
         command: >
+<<<<<<< HEAD
             sh -c "python manage.py runserver 0.0.0.0:8000"
+=======
+            sh -c "python manage.py runserver 0.0.0.0:8000"
+>>>>>>> 1586e1085add188dd40a99198a65db491f9619ed
